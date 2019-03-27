@@ -1,0 +1,132 @@
+button {
+    text-align:center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+.button1 {
+    text-align:center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+/* Add a hover effect for buttons */
+.button1:hover {
+    opacity: 0.8;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Add padding to containers */
+.container1 {
+    padding: 16px;
+    height:200px;
+}
+.classadmin{
+	text-align:center;
+	
+}
+.heading{
+	text-align:center;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+ 
+}
+.ex{
+	font-size:60px;
+}
+.bottom-right {
+	color:#ffa500;
+	font-size:60px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+	
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    width:25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+ 	 color: #666;
+    text-decoration: none;
+}
+
+li a:hover {
+	color:white;
+    background-color: #111;
+}
+
+.dropdown-content {
+    display: none;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body
+{
+  font-family: "Open Sans";
+}
+#wrapper
+{
+  border: 1px solid #888;
+  display: inline-block;
+  padding:20px;
+  
+}

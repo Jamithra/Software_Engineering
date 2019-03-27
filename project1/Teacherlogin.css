@@ -1,0 +1,114 @@
+form {
+    border: 3px solid #f1f1f1;
+    margin:auto;
+    width:50%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Add padding to containers */
+.container1 {
+    padding: 16px;
+    height:200px;
+}
+
+.heading{
+	text-align:center;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+ 
+}
+
+.bottom-right {
+	color:#ffa500;
+	font-size:60px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+	
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    width:25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+ 	 color: #666;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.button1:hover {
+    background-color: white; /* Green */
+    color:#4CAF50;	
+}
+.button1 {
+	float:center;
+	width:32%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
